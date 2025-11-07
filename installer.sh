@@ -2,12 +2,12 @@ curl -L -o ~/Downloads/junest.zip https://github.com/fsquillace/junest/archive/r
 sleep 1
 bsdtar -xf ~/Downloads/junest.zip
 sleep 0.2
-sudo mkdir -p /usr/local/junest_installer
-sleep 0.2
 sudo cp -r ~/Downloads/junest-7.4.10 /usr/local/
+sleep 0.2
 sudo mv /usr/local/junest-7.4.10 junest_installer
 sleep 0.2
-sudo mkdir -p /usr/local/junest
+sudo mkdir -p /ls
+usr/local/junest
 sleep 0.2
 sudo chown -R 1000:1000 /usr/local/junest_installer
 sleep 0.2

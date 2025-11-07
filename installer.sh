@@ -23,4 +23,4 @@ cd /usr/local/junest_installer/bin/
 ./junest setup
 
 export JUNEST_HOME=/usr/local/junest
-export PATH="/usr/local/junest_installer/bin:$JUNEST_HOME/bin:$PATH"
+export PATH="$PATH:/usr/local/junest_installer/bin:$JUNEST_HOME/bin"

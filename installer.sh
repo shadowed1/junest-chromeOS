@@ -17,7 +17,7 @@ sleep 0.2
 find /usr/local/junest_installer -type f -exec grep -q '^#!' {} \; -exec chmod +x {} \;
 sleep 0.2
 export JUNEST_HOME=/usr/local/junest
-export PATH="/usr/local/junest:/usr/local/junest_installer:$PATH"
+export PATH="$PATH:/usr/local/junest:/usr/local/junest_installer"
 
 cd /usr/local/junest_installer/bin/
 ./junest setup
